@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web Google por osvaldo</title>
+    <style>
+
+body {
+        background: #eee7ea;
+        margin: 0;
+      }
+
+/* Estilo para el encabezado y la navegación */
+        header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a, nav ul li input {
+            text-decoration: none;
+            font-size: 16px;
+            color: rgb(21, 21, 22);
+        }
+
+        nav ul li input {
+            padding: 5px 10px;
+            cursor: pointer;
+            background-color: #fff2f2;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Estilo para el contenedor principal */
+        .logo-container {
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabecera con navegación -->
+    <header>
+        <nav>
+            <ul class="nav-right-section">
+                <li>
+                    <a href="#">GMAIL</a>
+                </li>
+                <li>
+                    <a href="#">IMÁGENES</a>
+                </li>
+                <li>
+                    <input type="submit" value="Iniciar sesión">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor centrado para el logo -->
+    <div class="logo-container">
+        <!-- Logo de Google -->
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+    
+    <!--Barra de buscador google-->
+    <form action="https://www.google.com/search" method="get" style="text-align: center; margin-top: 20px;">
+        <input type="text" name="q" placeholder="Buscador de Google por Osvaldo" style="text-align: center;  width: 400px; height: 30px; padding: 5px; border: 2px solid #ccc; border-radius: 5px; font-size: 16px;">
+        <br><br>
+        <input type="submit" value="Buscar" style="margin-right: 10px; padding: 5px 15px; border: 1px solid #ccc; border-radius: 5px; background-color: #f0f0f0; color: black; cursor: pointer; font-size: 16px;">
+        <input type="submit" value="Voy a tener suerte" style="padding: 5px 15px; border: 1px solid #ccc; border-radius: 5px; background-color: #f0f0f0; color: black; cursor: pointer; font-size: 16px;">
+    </form>
+    
+    
+    <!--opciones sobre google-->
+    <div style="margin-top: 25px; text-align: center;">
+        
+        <a href="#" style="margin: 0 5px;">Sobre Google</a>
+        <a href="#" style="margin: 0 5px;">Publicidad</a>
+        <a href="#" style="margin: 0 5px;">Empleo</a>
+        <a href="#" style="margin: 0 5px;">Contactos</a>
+        
+    </div>
+</div>
+ <!-- Pie de pagina-->
+ <footer style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2; padding: 10px; text-align: center;">
+    <div>
+       
+        <a href="#">Negocios</a>
+        <a href="#">Acerca de Google</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Condiciones</a>
+    </div>
+</footer>
+ 
+ 
+
+</body>
+</html>
