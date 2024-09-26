@@ -37,16 +37,19 @@
 
 ### Mis Proyectos
 
--https://github.com/OsvaldoDlc/osvaldodl/commit/0bcfc85c3e4f99f486a725aa1823dba8fdaabf44 Descripción de tu primer proyecto, las tecnologías usadas y el objetivo.
-- **[Proyecto 2](link-al-proyecto)**: Descripción de tu segundo proyecto.
+-**(https://github.com/OsvaldoDlc/osvaldodl/commit/0bcfc85c3e4f99f486a725aa1823dba8fdaabf44)**: En este proyecto es una página web de una cafetería 
+- **(https://github.com/OsvaldoDlc/osvaldodl/blob/main/index2.html)**: Esta proyecto emula la pagina de google en sus inicios
 - **[Proyecto 3](link-al-proyecto)**: Descripción de tu tercer proyecto.
 
 ### Mi Trayectoria de Aprendizaje
 
-¡Siempre estoy aprendiendo algo nuevo! Estas son algunas áreas en las que me estoy enfocando actualmente:
-- Explorando **Web3** y el mundo de las aplicaciones descentralizadas.
-- Mejorando habilidades con **TypeScript** para un desarrollo front-end más escalable.
-- Experimentando con **React Native** para el desarrollo de aplicaciones móviles.
+Actualmente, estoy expandiendo mis conocimientos en nuevas áreas clave del desarrollo web y móvil:
+
+- Investigando **Web3** y el ecosistema de aplicaciones descentralizadas.
+- Fortaleciendo mis habilidades en **TypeScript** para escribir código front-end más robusto y mantenible.
+- Explorando **React Native** para desarrollar aplicaciones móviles multiplataforma con una experiencia nativa.
+
+Siempre busco aprender y dominar nuevas tecnologías que impulsen mi crecimiento como desarrollador.
 
 ---
 
@@ -54,5 +57,5 @@
 
 - 💼 [Portafolio](link-a-tu-portafolio)
 - 💬 [LinkedIn](https://www.linkedin.com/in/tu-perfil)
-- 📧 [Correo](mailto:tu.correo@example.com)
+- 📧 [Correo](pedro.delacruz33@my.unitec.edu.mx)
 - 🐦 [Twitter](https://twitter.com/tu-perfil)
