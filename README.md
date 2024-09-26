@@ -37,7 +37,7 @@
 
 ### Mis Proyectos
 
--0bcfc85c3e4f99f486a725aa1823dba8fdaabf44 Descripción de tu primer proyecto, las tecnologías usadas y el objetivo.
+-https://github.com/OsvaldoDlc/osvaldodl/commit/0bcfc85c3e4f99f486a725aa1823dba8fdaabf44 Descripción de tu primer proyecto, las tecnologías usadas y el objetivo.
 - **[Proyecto 2](link-al-proyecto)**: Descripción de tu segundo proyecto.
 - **[Proyecto 3](link-al-proyecto)**: Descripción de tu tercer proyecto.
 
