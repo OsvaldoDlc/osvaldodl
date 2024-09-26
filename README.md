@@ -37,7 +37,7 @@
 
 ### Mis Proyectos
 
-- **[Proyecto 1](link-al-proyecto)**: Descripción de tu primer proyecto, las tecnologías usadas y el objetivo.
+- index.html: Descripción de tu primer proyecto, las tecnologías usadas y el objetivo.
 - **[Proyecto 2](link-al-proyecto)**: Descripción de tu segundo proyecto.
 - **[Proyecto 3](link-al-proyecto)**: Descripción de tu tercer proyecto.
 
