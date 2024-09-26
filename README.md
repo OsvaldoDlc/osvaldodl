@@ -55,7 +55,7 @@ Siempre busco aprender y dominar nuevas tecnologías que impulsen mi crecimiento
 
 ## Cómo Contactarme
 
-- 💼 [Portafolio](link-a-tu-portafolio)
+- 💼 [Portafolio](https://github.com/OsvaldoDlc)
 - 💬 [LinkedIn](https://www.linkedin.com/in/tu-perfil)
 - 📧 [Correo](pedro.delacruz33@my.unitec.edu.mx)
 - 🐦 [Twitter](https://twitter.com/tu-perfil)
