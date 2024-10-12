@@ -1,0 +1,508 @@
+@charset "UTF-8";
+
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(imagenes/perfil.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh; 
+    display: flex;
+    flex-direction: column; 
+    padding: 20px; 
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.menu .logo {
+    position: relative;
+    display: inline-block;
+    padding: 30px 20px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;    
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(240, 102, 10);
+}
+
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+.navbar li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.navbar li a {
+    font-size: 18px;
+    padding: 20px; 
+    color: rgb(228, 224, 3);
+    display: block; 
+}
+
+.navbar li a:hover {
+    color: #2a8574; 
+}
+
+.about {
+    padding: 100px; 
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    border-radius: 10px; 
+    max-width: 800px; 
+    margin: 200px auto;
+    font-size: bold; 
+}
+.about h1 {
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1); 
+    color: #fff; 
+    animation: fadeIn 2s ease-in-out, colorChange 4s infinite; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.about h1:hover {
+    transform: scale(1.1); 
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+/* Keyframes para la animación de cambio de color */
+@keyframes colorChange {
+    0% {
+        color: #ff69b4; 
+    }
+    25% {
+        color: #33cc33; 
+    }
+    50% {
+        color: #0066ff; 
+    }
+    75% {
+        color: #ffcc00; 
+    }
+    100% {
+        color: #ff69b4; 
+    }
+}
+.about p {     
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2); 
+    padding: 10px; 
+    margin: 20px 0; 
+    text-align: center; 
+    animation: neon 1.5s ease-in-out infinite alternate; 
+}
+
+@keyframes neon {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 0, 0, 0.5); 
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.7); 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+}
+
+
+.menu .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+
+
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgba(16, 186, 216, 0.712);
+    display: block;
+    border: 2px solid transparent; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(17, 122, 99, 0.5);
+  }
+  
+  .menu .navbar ul li a:hover {
+    animation: neon 1s infinite;
+  }
+  
+  @keyframes neon {
+    0% {
+      text-shadow: 0 0 10px rgba(5, 235, 43, 0.5);
+    }
+    50% {
+      text-shadow: 0 0 20px rgb(61, 14, 230);
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(7, 158, 245, 0.5);
+    }
+  }
+
+
+
+#menu {
+    display: none;
+
+}
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-text{
+  text-align: center;
+  width: 700px;
+}
+
+.header-text h1{
+    color: white;
+    font-size: 55px;
+}
+.header-text p{
+    color: white;
+    margin-top: 35px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: aqua;
+    margin-top: 35px;
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+}
+.btn-1:hover {
+    background-color:  #2fcab5;
+
+}
+.services {
+    padding: 50px 0px;
+    text-align: center;
+    color: gray;
+
+}
+.services h2 {
+    font-size:  55px;
+    margin-bottom: 25px;
+
+}
+
+.txt-1 {
+    font-size:  18px;
+    padding: 0px 200px;
+    margin-bottom:  55px;
+
+}
+
+.group-services {
+    display: flex;
+    justify-content: space-between;
+
+}
+.service {
+    padding: 35px 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    position: relative; 
+}
+
+.service:after {
+    content: ""; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-style: solid; 
+    border-width: 0 10px 10px 0; 
+    border-color: transparent transparent #fff transparent; 
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.service:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+
+.service img {
+    width: 50px;
+    margin-bottom: 25px;
+
+}
+
+.service h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+
+}
+
+.service p {
+    font-size: 18px;
+    
+}
+
+.porfolio {
+    padding: 50;
+    color: #454646;
+    display: flex;
+}
+.porfolio-txt h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+.porfolio-txt p{
+    font-size: 18px;
+    margin: 0px 135px 55px 0px;
+
+}
+
+.imgs {
+    display: flex;
+}
+    
+.imgs img {
+    width: 250px;
+    margin: 0px 10px;
+}
+
+.bg-sec {
+    background-image: url(imagenes/bg-sec.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 35px 0px;
+}
+
+.bg-txt {
+    padding: 100px 0px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.bg-txt h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+.bg-txt p{
+    font-size: 18px;
+    margin-bottom: 25px;
+
+
+}
+
+.numbers {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #454646;
+
+}
+.number {
+    text-align: center;
+
+}
+
+.number h3{
+    font-size: 100px;
+    margin-bottom: 25px;
+}
+
+.number p{
+    font-size: 19px;
+
+}
+footer {
+    padding: 150px 0px;
+    background-color: #454646;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.enlace h3 {
+    color: #ffffff;
+    font-size: 20px;    
+    margin-bottom: 25px;
+
+}
+.enlace li {
+    list-style: none;
+
+}
+.enlace a {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+}
+.enlace form {
+    display: flex;
+    flex-direction: column;
+
+} 
+.btn-2 {
+    padding:  10px 25px;
+    border: 0;
+
+}
+.btn-3 {
+    background-color: #2fcab5;
+    padding:  10px 25px;
+    border: 0;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+    .media {
+        padding: 20px;  
+       
+    }
+    .menu label {
+        display: initial;
+        
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: green;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+    .menu .navbarul li {
+        width: 100%;
+    }
+
+    #menu:checked ~.navbar {
+        display: initial;
+    }
+    .header {
+        height: 55vh;
+    }
+    .header-text {
+        margin-top: 50px;
+        padding: 0px 25px;
+        
+    }
+    .services{
+        padding: 30px;
+    }
+    .txt-1 {
+        padding: 0px;   
+        margin-bottom: 35px;
+
+    }
+    .group-services {
+        flex-direction: column;
+
+    }
+    .service{
+        margin-bottom: 20px;
+    }
+
+    .porfolio{
+        padding: 0px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .porfolio-txt p{
+        margin:  0px;
+
+    }
+    .imgs {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .imgs img {
+        margin: 15px 0px 0px 0xp;
+    }
+    .bg-txt{
+        padding: 30px;
+    }
+    .numbers {
+        flex-direction: column;
+        padding: 30px;
+
+    }
+    .footer {
+        padding: 30px;
+    }
+    .ft {
+        text-align: center;
+        flex-direction: column;
+    }
+    .enlace form {
+        align-items: center;
+    
+    }
+}
+    
